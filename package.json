@@ -1,0 +1,30 @@
+{
+  "name": "speech-summarizer",
+  "version": "0.0.0",
+  "description": "Summarizes the main points of an speech audio. ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/emanueloliveira23/speech-summarizer.git"
+  },
+  "keywords": [
+    "speech",
+    "summarizer",
+    "utility",
+    "robots"
+  ],
+  "author": "emanueloliveira23",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/emanueloliveira23/speech-summarizer/issues"
+  },
+  "homepage": "https://github.com/emanueloliveira23/speech-summarizer#readme",
+  "dependencies": {
+    "@google-cloud/speech": "^2.3.1",
+    "get-uri": "^2.0.3",
+    "stream-to-buffer": "^0.1.0"
+  }
+}
